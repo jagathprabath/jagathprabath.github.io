@@ -1,90 +1,152 @@
 <!DOCTYPE html>
-<html>
-<style>
-body, html {
-    height: 100%;
-    margin: 0;
-}
+<html lang="en">
 
-.bgimg {
-    background-image: url('http://genchi.info/img/school-wallpaper-8.jpg');
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    color: white;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 25px;
-}
+  <head>
+  
+    <script type="text/javascript">
+      var host = "www.princewaycollege.com";
+      if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+    </script>
+    <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
 
-.topleft {
-    position: absolute;
-    top: 0;
-    left: 16px;
-}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-.bottomleft {
-    position: absolute;
-    bottom: 0;
-    left: 16px;
-}
+    <title>Princeway College - Avissawella Sri Lanka</title>
 
-.middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
-hr {
-    margin: auto;
-    width: 40%;
-}
-</style>
-<body>
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
 
-<div class="bgimg">
-  <div class="topleft">
-    <p>Princeway College</p>
-  </div>
-  <div class="middle">
-    <h1>COMING SOON</h1>
-    <hr>
-    <p id="demo" style="font-size:30px"></p>
-  </div>
-</div>
+  </head>
 
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Oct 24, 2018 15:37:25").getTime();
+  <body>
 
-// Update the count down every 1 second
-var countdownfunction = setInterval(function() {
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top theme-color " >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" height="40" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive" >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item" >
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="vision-mission.html">Vision & Mission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="new-admission.html">New Admission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="careers.html">Careers</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    // Get todays date and time
-    var now = new Date().getTime();
-    
-    // Find the distance between now an the count down date
-    var distance = countDownDate - now;
-    
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-    // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
-    
-    // If the count down is over, write some text 
-    if (distance < 0) {
-        clearInterval(countdownfunction);
-        document.getElementById("demo").innerHTML = "EXPIRED";
-    }
-}, 1000);
-</script>
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('img/1.jpeg')">
+            <div class="carousel-caption d-none d-md-block">
+              <!--<h3>First Slide</h3>
+              <p>This is a description for the first slide.</p>-->
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('img/2.jpeg')">
+            <div class="carousel-caption d-none d-md-block">
+              <!--<h3>Second Slide</h3>
+              <p>This is a description for the second slide.</p>-->
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('img/3.jpeg')">
+            <div class="carousel-caption d-none d-md-block">
+              <!--<h3>Third Slide</h3>
+              <p>This is a description for the third slide.</p>-->
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('img/4.jpeg')">
+            <div class="carousel-caption d-none d-md-block">
+              <!--<h3>Forth Slide</h3>
+              <p>This is a description for the third slide.</p>-->
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
 
-</body>
+    <br>
+    <!-- Page Content -->
+    <div class="container">
+
+      <hr>
+      <h1>Welcome to Princeway College.</h1>
+      <hr>
+      <br>
+      <p class="paragraph-font">
+        Princeway College is a private English Medium School which mainly forces on National Syllabus to the children irrespective of Gender in Avissawella area and surrounding  towns. It is a Primary School which provides education to the children in the level of Kindergarten to Grade 5 at the beginning and will be extended to GCE Ordinary and Advance Level in future.  It also conducts private Tuition classes for Local Syllabus from Grade1 up to GCE (AL) for English Medium and Sinhala Medium students during weekends and week days after school hours.  In addition, it conducts private Tuition classes for London Cambridge syllabus. It always commits to Lifelong Learning in a Caring Environment and dedicates to excellence of child education. Furthermore, a learning community inspires to building respectful and responsible citizens and empowering all learners. Students maximize potential through individual attention of resource personnel and they discover new learning possibilities. Moreover, it provides education through motivation and inspiration and it formulates a community with high expectation and high academic achievement. It also inspiring children for exciting futures. Working collaboratively to ensure every student achieves academically, socially, and emotionally.
+      </p>
+
+      <hr>
+      <h3>About Our Logo</h3>
+      <hr>
+      <img src="img/logo-square.png" alt="Princeway College Logo" width="30%" class="img-thumbnail rounded mx-auto d-block">
+      <br>
+      <p class="paragraph-font">
+        The logo consists of elements that signify the essence of Princeway College. The school colours (GREEN & WHITE) signify valve added (GREEN) and purity (WHITE) and also the Communities of Sri Lanka together with the school being Multi Ethnic & Multi Religious. THE LOGO displays three important quotes to be dealt with regarding children education namely COMPETENCE, COMMITMENT, CONFIDENCE, thus showing the exceptionality of the school. THE MOTTO indicates the teacher’s dedication to excellent education of students. The CROWN specifies dignity of the students to be in this school. THE BOOK depicts knowledge while THE LAMP signifies enlightenment. THE TWO RICE SPIKELETS indicate the inspiring future and gain wealth to the school for its rapid development and indicate teamwork and a sense of belonging among Parent, Teacher & Student. As a whole the logo implies that every child matters and that learning should be fun, purposeful and challenging.
+      </p>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 theme-color">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Princeway College <script>document.write(new Date().getFullYear())</script></p>
+        <p class="m-0 text-center text-white">Developed by <a>Nadun Kulatunge.</a></p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
 </html>
